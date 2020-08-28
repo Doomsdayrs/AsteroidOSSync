@@ -78,7 +78,7 @@
             android:exported="false"
             android:label="SynchronizationService" />
 
-        <receiver android:name=".services.AutostartService">
+        <receiver android:name=".services.AutoStartService">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
